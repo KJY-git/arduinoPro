@@ -20,8 +20,8 @@ LiquidCrystal lcd(3,4,5,6,7,8);
 Servo servoX;
 Servo servoY;
 
-char ssid[] = "Galaxy S21 5G";
-char pass[] = "00000000";
+char ssid[] = "WIFI_SSID"; //와이파이 이름 입력
+char pass[] = "WIFI_PASS"; // 와이파이 비밀번호 입력
 
 WiFiServer server(80);
 
